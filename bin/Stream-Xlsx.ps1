@@ -1,4 +1,4 @@
-#!/bin/pwsh
+#!/usr/bin/env pwsh
 
 Add-Type -Path ([System.IO.Path]::Combine($PSScriptRoot, "netstandard.dll"))
 Add-Type -Path ([System.IO.Path]::Combine($PSScriptRoot, "Sylvan.Data.Excel.dll"))
